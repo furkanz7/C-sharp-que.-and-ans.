@@ -1,0 +1,57 @@
+STRUCTURED PROGRAMMING II
+PRACTICE QUESTIONS II
+1) Handle the exception given in the below code.
+string[] depts ={"MIS", "History", "Physics", "Economics" };
+object[] departments = depts;
+departments[1] = 9.8;
+2) Ask the user for a number. If the user enters a value other than a
+number, handle the exception at the outer block
+3) The following codes open the test.txt file in the application folder and
+output its content to the console. If the file is not found, it throws an
+exception. Notify the user of this situation.
+using (var reader = new StreamReader("test.txt"))
+{
+Console.WriteLine(reader.ReadToEnd());
+}
+Console.ReadLine();
+4) Replace the word starts with kara to beyaz given string array.
+string[] places = {"ankara", "maskara", "karagöz",
+"karaburun"};
+5) Write the LastIndexOf, and substr methods yourself.
+Istanbul Uni. MIS Dep. - Assoc. Prof. Zeki ÖZEN
+2
+6) Write a C# program that parses the strings "Oct 23, 1923" and "Mar
+18, 1915" into DateTime objects. Calculate and output the total
+number of days between the two dates.
+7) The area of intersection formed (inside the triangle) by the circular
+sectors determined by arcs is given by. Write the program that
+calculates that area.
+• 𝑎 = 𝑥 + 𝑦 + 𝑧
+• Angles should be evaluated as radians.
+• (cos-1 means Arccos (Acos)).
+8) Write a method called HarmonicInteger that takes 5 integers as input
+and returns their harmonic mean as double data type.
+9) Write a method that takes 5 names from the user and stores them in
+a List<string> collection. Print these names on the screen in
+alphabetical order.
+Istanbul Uni. MIS Dep. - Assoc. Prof. Zeki ÖZEN
+3
+10) Write a method named PrintNumbers that takes an int and a double
+as parameters in order. The method should work as follows:
+• If either of the parameters is a negative number, it should print
+the negative number.
+• If both numbers are positive, it should print the reciprocal
+(multiplicative inverse, 1/number) of the smaller number.
+11) Write a method that accepts a variable number of arguments and
+returns their median. (Note: use params keyword)
+12) Write a method that takes a number as a parameter, assigns its
+square to the parameter, and returns the squared value.
+13) Create a List<int> to hold a collection of numbers.
+Add 5 random numbers between 1 and 50 to the list.
+Return the numbers from the list that are greater than the average of
+all numbers in the list.
+14) Write a method that takes a List<string> as a parameter, filters the
+list, and returns only the words that contain the letter "e".
+15) Create a Dictionary<string, int> to store students' names and their
+grades. Write a program that takes a student's name as input from
+the user and returns the corresponding grade.
